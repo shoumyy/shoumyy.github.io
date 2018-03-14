@@ -29,7 +29,14 @@
         background-color: #F57F17;  
         height: 100%;
     }
-    
+       img {  
+	 border-radius: 50px;
+	 background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2000px-No_image_available.svg.png');
+	 height: 50px; 
+    } 
+    .whoami {
+	    height: 250px;
+	  }
     /* Set black background color, white text and some padding */
     footer {
       background-color: #455;
@@ -39,6 +46,12 @@
     .col-sm-4 img {
     	height: 250px;
     }
+    table {
+      margin-left: 20px;
+    }  
+    td {
+      height: 75px; 
+    }
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
@@ -46,6 +59,18 @@
         padding: 15px;
       }
       .row.content {height: auto;} 
+      table {
+	margin-left: 0px;
+      }
+      img {
+	height: 20px;
+      }
+     .whoami {
+	    height: 50px;
+	  }
+    .col-sm-4 img {
+    	height: 50px;
+      }
     }
 	.h3 {
 		text-align:center;
@@ -74,9 +99,9 @@
     </div>
   <div class="container-fluid bg-1 text-center">
   <h3>Where Am I?</h3>
-  <img src="https://media.planetradio.co.uk/one/radio-legacy/f3/10286/94858/739b8/c6d8f/8d4a1/16aca/Capture.JPG?quality=80&width=960&ratio=16-9&resizeStyle=aspectfill&format=jpg" style="display:center" alt="Bird" width="200" height="200">
+  <img class="whoami" src="https://media.planetradio.co.uk/one/radio-legacy/f3/10286/94858/739b8/c6d8f/8d4a1/16aca/Capture.JPG?quality=80&width=960&ratio=16-9&resizeStyle=aspectfill&format=jpg" style="display:center" alt="Bird" width="200" height="200">
   <h3>I'm an iphone in the carpet</h3>	
-  </div>
+  
   	<br>
     <div class="col-sm-9">
       <h4><small>RECENT POSTS</small></h4>
