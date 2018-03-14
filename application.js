@@ -1,5 +1,5 @@
 var config = {
-apiKey: "AIzaSyCtjQVqqA-Ioe5bMCJnDVzmS7jWCrDlTNs",
+    apiKey: "AIzaSyCtjQVqqA-Ioe5bMCJnDVzmS7jWCrDlTNs",
     authDomain: "github-ff08a.firebaseapp.com",
     databaseURL: "https://github-ff08a.firebaseio.com",
     projectId: "github-ff08a",
